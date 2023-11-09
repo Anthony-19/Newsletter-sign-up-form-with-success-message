@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Newsletter</title>
+</head>
+<body style="background-color: hsl(234, 29%, 20%);">
+        <div class="container">
+            <div class="container-1">
+                <div class="header">
+                    <h1 class="header">Stay updated!</h1>
+                    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                    <div class="list-group">
+                        <p>
+                            <img src="../assets/images/icon-list.svg" alt="checkboxes"> Product discovery and building what matters
+                        </p>
+                        <p>
+                            <img src="../assets/images/icon-list.svg" alt="checkboxes"> Measuring to ensure updates are a success
+                        </p>
+                        <p>
+                            <img src="../assets/images/icon-list.svg" alt="checkboxes"> And much more
+                        </p>
+                    </div>
+                </div>
+                <form action="" method="post" class="was-validated">
+                    <label for="" id="errorMessage"></label>
+                        <div class="email">
+                            <label for="">Email Address</label>
+                            <input type="email" placeholder="ash@loremcompany.com" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="suscribe to monthly newsletter">
+                        </div>
+                    </form>
+            </div>
+            <div class="container-2">
+                <img src="../assets/images/illustration-sign-up-desktop.svg" alt="illustration">
+            </div>
+        </div>
+
+        <div class="cards container-3 hide">
+            <img src="../assets/images/icon-success.svg" alt="">
+            <h1>Thanks for subscribing!</h1>
+            <p>A confirmation email have been sent to <span id="emails"></span> .Please open it and click the button inside to confirm your subscription</p>
+            <form action="">
+                <input type="submit" class="btn btn-danger" value="Dismiss messsage">
+            </form>
+        </div>
+                 
+
+
+        <script src="index.js"></script>
+</body>
+</html>
